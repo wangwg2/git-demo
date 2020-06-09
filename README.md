@@ -4,10 +4,13 @@
 ## 基础
 ### 文档手册
 - [Hello World](https://guides.github.com/activities/hello-world/)
+- [git-config](https://git-scm.com/docs/git-config)
+- [github/gitignore](https://github.com/github/gitignore) A collection of useful .gitignore templates
+- [Git 使用基础](ug-base.md)
+- [git workflow](workflow.md)
 
 ### 练习
 - [demo101 - 初始化 git 项目](demo101.md)
-
 
 ## 参考资料
 - [Git Reference](https://git-scm.com/docs)
