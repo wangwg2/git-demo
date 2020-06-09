@@ -5,29 +5,33 @@
 git add .
 # add demo102.md
 
-git commit -m "demo 102"
-git tag -a 0.1.0
+# 提交
+git commit -m "demo 102"    # 提交分支
+git tag -a 0.1.0            # 标记版本 tag
 
-git push origin master
-git push --tags
+git push origin master      # 提交远端仓库 (分支)
+git push --tags             # 提交远端仓库 (tag)
 ```
 
 #### develop
 ```bash
+# 创建 develop 分支
 git checkout -b develop master
+# 提交远端仓库
 git push origin develop
 ```
 
 ```bash
-git clone -b develop git@github.com:wangwg2/git-demo.git gitdemo-dev
-
+# 获取 develop 分支
+git clone -b develop git@github.com:wangwg2/git-demo.git git-demo-dev
+# 添加远程仓库
 git remote add prod git@github.com:wangwg2/git-demo.git
 git remote set-url origin git@github.com:wangwg2/git-demo-dev.git
 ```
 
 
 #### hotfix
-```
+```bash
 git clone git@github.com:wangwg2/git-demo.git git-demo-hotfix
 ```
 
