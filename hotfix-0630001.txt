@@ -1,0 +1,8 @@
+git checkout -b hotfix-0630001 master 
+
+update:  gitbranch.md
+add:     hotfix-0630001.txt
+
+git add .
+git commit -m "hotfix-0630001: fix bug 0630001"
+git push origin hotfix-0630001
